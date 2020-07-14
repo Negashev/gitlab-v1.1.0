@@ -67,6 +67,7 @@ data:
         ssh_host: {{ . | quote }}
         {{- end }}
         {{- with .Values.global.appConfig }}
+        usage_ping_enabled: {{ eq .enableUsagePing true }}
         issue_closing_pattern: {{ .issueClosingPattern | quote }}
         default_theme: {{ .defaultTheme }}
         webhook_timeout: {{ .webhookTimeout }}
@@ -228,7 +229,7 @@ data:
           {{- end }}
       ## Registry Integration
       registry:
-        enabled: true
+        enabled: {{ .Values.registry.enabled }}
         host: {{ template "gitlab.registry.host" . }}
         {{- if .Values.registry.port }}
         port: {{ .Values.registry.port }}

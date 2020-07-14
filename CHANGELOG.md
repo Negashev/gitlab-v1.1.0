@@ -2,6 +2,56 @@
 documentation](doc/development/changelog.md) for instructions on adding your own
 entry.
 
+## 1.1.6 (2018-10-17)
+
+### Other (1 change)
+
+- Update GitLab Version to 11.3.6.
+
+
+## 1.1.5 (2018-10-15)
+
+### Fixed (1 change)
+
+- Sidekiq: add credentials for Registry, #785. !535
+
+### Added (1 change, 1 of them is from the community)
+
+- Add registry.enabled param in unicorn chart. !508 (Flavien Peyre)
+
+### Other (1 change)
+
+- Update GitLab Version to 11.3.5.
+
+
+## 1.1.4 (2018-10-05)
+
+### Other (1 change)
+
+- Update GitLab Version to 11.3.4.
+
+
+## 1.1.3 (2018-10-04)
+
+### Other (1 change)
+
+- Update GitLab Version to 11.3.3.
+
+
+## 1.1.2 (2018-10-03)
+
+### Other (1 change)
+
+- Update GitLab Version to 11.3.2.
+
+
+## 1.1.1 (2018-10-01)
+
+### Other (1 change)
+
+- Update GitLab Version to 11.3.1.
+
+
 ## 1.1.0 (2018-09-22)
 
 ### Fixed (1 change)
